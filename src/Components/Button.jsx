@@ -1,9 +1,9 @@
 import React from "react";
-import { ArrowRight } from "lucide-react";
+
 
 const Button = ({ text, icon: Icon }) => {
   return (
-    <button className="flex items-center justify-center gap-2 px-8 py-2 bg-white rounded-full transition-all duration-300 hover:text-white hover:bg-black text-center">
+    <button className="flex items-center justify-center gap-2 px-8 py-2 border-transparent border-2 text-white rounded-full transition-all duration-300 hover:text-white  hover:border-white  text-center">
       <span className="flex items-center justify-center">{text}</span>
       {Icon && <Icon className="w-5 h-5" />}
     </button>

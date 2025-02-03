@@ -1,8 +1,29 @@
 import React from 'react';
 import { ArrowRight } from "lucide-react";
 import Button from '../Components/Button';
+import StackedCard from '../Components/StackedCard';
 
 const Home = () => {
+  // Define card data
+  const cardsData = [
+    {
+      id: "card1",
+      heading: "ISO :9001 :2015 Certified",
+      text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    },
+    {
+      id: "card2",
+      heading: "100% pakistani company",
+      text: "We provide high-quality lubricants that meet industry standards and help keep your equipment running smoothly. Trusted by professionals across industries."
+    },
+    {
+      id: "card3",
+      heading: "ogra certified ",
+      text: "Our lubricants are formulated using advanced technology to enhance engine performance and longevity. Ensuring that your engines run efficiently and reliably."
+    },
+    
+  ];
+
   return (
     <>
       <div className="relative h-screen w-full overflow-hidden">
@@ -32,6 +53,9 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      {/* Pass the cardsData to the StackedCard component */}
+      <StackedCard cardsData={cardsData} />
     </>
   );
 };
