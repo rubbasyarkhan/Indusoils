@@ -1,7 +1,9 @@
 import React from 'react';
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Rotate3D } from "lucide-react";
 import Button from '../Components/Button';
 import StackedCard from '../Components/StackedCard';
+import ScrollSection from '../Components/ScrollSection';
+import Isection from '../Components/isection';
 
 const Home = () => {
   // Define card data
@@ -21,12 +23,12 @@ const Home = () => {
       heading: "ogra certified ",
       text: "Our lubricants are formulated using advanced technology to enhance engine performance and longevity. Ensuring that your engines run efficiently and reliably."
     },
-    
+
   ];
 
   return (
     <>
-      <div className="relative h-screen w-full overflow-hidden">
+      <div className="relative h-screen w-full mb-40 overflow-hidden">
         <video
           muted
           loop
@@ -56,6 +58,8 @@ const Home = () => {
 
       {/* Pass the cardsData to the StackedCard component */}
       <StackedCard cardsData={cardsData} />
+        <Isection />
+      <ScrollSection />
     </>
   );
 };
