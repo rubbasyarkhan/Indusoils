@@ -4,6 +4,7 @@ import Button from '../Components/Button';
 import StackedCard from '../Components/StackedCard';
 import ScrollSection from '../Components/ScrollSection';
 import Isection from '../Components/isection';
+import ProductSlider from '../Components/ProductSlider';
 
 const Home = () => {
   // Define card data
@@ -58,8 +59,9 @@ const Home = () => {
 
       {/* Pass the cardsData to the StackedCard component */}
       <StackedCard cardsData={cardsData} />
-        <Isection />
+      <Isection />
       <ScrollSection />
+      <ProductSlider />
     </>
   );
 };
