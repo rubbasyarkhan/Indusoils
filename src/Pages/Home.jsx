@@ -1,9 +1,9 @@
 import React from 'react';
-import { ArrowRight, Rotate3D } from "lucide-react";
 import Button from '../Components/Button';
 import StackedCard from '../Components/StackedCard';
 import ScrollSection from '../Components/ScrollSection';
 import Isection from '../Components/isection';
+import ProductSlider from '../Components/ProductSlider';
 
 const Home = () => {
   // Define card data
@@ -50,16 +50,43 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="mt-6">
-            <Button icon={ArrowRight} text="Learn more" />
+          <div>
+            <Button
+              text="Download Now"
+              color="#ffffff"
+              icon1={
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="14"
+                  height="14"
+                >
+                  <path d="M10 4L6 8L10 12" stroke="currentColor" strokeWidth="2" />
+                </svg>
+              }
+              icon2={
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="14"
+                  height="14"
+                >
+                  <path d="M4 4L8 8L4 12" stroke="currentColor" strokeWidth="2" />
+                </svg>
+              }
+            />
           </div>
+
         </div>
       </div>
 
       {/* Pass the cardsData to the StackedCard component */}
       <StackedCard cardsData={cardsData} />
-        <Isection />
+      <Isection />
       <ScrollSection />
+      <ProductSlider />
     </>
   );
 };
