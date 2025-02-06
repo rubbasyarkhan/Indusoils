@@ -29,7 +29,7 @@ const ScrollSection = () => {
   }, []);
 
   return (
-    <section className="h-[50vh]   sm:h-[80vh] w-full px-4 sm:px-8 md:px-16 lg:px-20">
+    <section className="h-[70vh]  sm:h-[80vh] w-full px-4 sm:px-8 md:px-16 lg:px-20">
       <div className="flex justify-center">
         <p className="scroll-text text-base sm:text-lg md:text-xl lg:text-2xl px-4 sm:px-8  w-full sm:w-3/4 md:w-2/3 lg:w-full font-medium leading-relaxed">
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
