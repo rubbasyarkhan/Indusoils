@@ -59,7 +59,7 @@ const Footer = () => {
           <div className="text-center text-gray-500 text-sm pt-4">
             <a href="#" className="hover:text-gray-400">Terms of Use</a> |
             <a href="#" className="hover:text-gray-400 ml-2">Privacy Policy</a>
-            <p className="mt-2">Copyright © 2023 Transparent. All rights reserved.</p>
+            <p className="mt-2">Copyright © 2023 INDUSOILAND LUBRICANTS. All rights reserved.</p>
           </div>
         </div>
       </footer>
