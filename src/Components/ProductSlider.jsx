@@ -47,7 +47,7 @@ const products = [
 const ProductSlider = () => {
   return (
     <section className="w-full flex justify-center flex-col items-center  py-10 mb-40 h-[80%]">
-      <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-14 sm:mb-40 text-center">lknc</h1>
+      <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-14 sm:mb-20 text-center">Highlighted Products</h1>
       <Carousel
         className="h-full w-[90%] "
         responsive={responsive}
@@ -62,6 +62,7 @@ const ProductSlider = () => {
           <SingleProduct key={product.id} imgURL={product.imgURL} name={product.name} />
         ))}
       </Carousel>
+      
     </section>
   );
 };

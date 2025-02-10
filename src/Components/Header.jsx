@@ -50,7 +50,7 @@ const Header = () => {
             <div className="relative group" ref={dropdownRef}>
               <button
                 onClick={() => setDropdownOpen(dropdownOpen === "services" ? null : "services")}
-                className="flex items-center font-bold hover:text-gray-500 transition"
+                className=" flex items-center font-bold hover:text-gray-500 transition"
               >
                 Services <ChevronDown size={16} className="ml-1" />
               </button>
