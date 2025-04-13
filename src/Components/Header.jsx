@@ -52,7 +52,7 @@ const Header = () => {
                 onClick={() => setDropdownOpen(dropdownOpen === "services" ? null : "services")}
                 className=" flex items-center font-bold hover:text-gray-500 transition"
               >
-                Services <ChevronDown size={16} className="ml-1" />
+                products <ChevronDown size={16} className="ml-1" />
               </button>
               <div
                 className={`absolute left-0 mt-2 w-44 bg-gray-100 rounded-lg shadow-lg transition-all duration-300 ${dropdownOpen === "services" ? "opacity-100 visible" : "opacity-0 invisible"
@@ -89,7 +89,7 @@ const Header = () => {
               </div>
             </div>
 
-            <Link to="/products" className="font-bold hover:text-gray-500 transition">
+            <Link to="/product" className="font-bold hover:text-gray-500 transition">
               Products
             </Link>
           </div>

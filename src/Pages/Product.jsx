@@ -1,8 +1,11 @@
+import ProductPage from '@/Components/ProductPage'
 import React from 'react'
 
 const Product = () => {
   return (
-    <div>Product</div>
+    <div className=''>
+      <ProductPage />
+    </div>
   )
 }
 

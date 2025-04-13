@@ -48,7 +48,7 @@ const ProductSlider = () => {
       className="mySwiper"
     >
       {images.map((src, index) => (
-        <SwiperSlide key={index} className="mr-4 ">
+        <SwiperSlide key={index} className="mr-4 mb-10 ">
           <img className='px-4' src={src} alt={`Slide ${index + 1}`} />
         </SwiperSlide>
       ))}
