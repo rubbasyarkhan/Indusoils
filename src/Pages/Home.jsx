@@ -65,6 +65,7 @@ const Home = () => {
       <Isection />
       <ScrollSection />
       <ProductSlider />
+
     </>
   );
 };
