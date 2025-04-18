@@ -1,8 +1,10 @@
 import React from "react";
 import { useParams, Link } from "react-router-dom";
 import productsAndCategory from "../data/updatedProductData";
+import Header from "./Header";
 
 const SingleProductPage = () => {
+
     const { name } = useParams();
     const decodedName = decodeURIComponent(name);
 
@@ -29,6 +31,8 @@ const SingleProductPage = () => {
         .slice(0, 4);
 
     return (
+        <>
+        <Header/>
         <div className="max-w-6xl mx-auto px-4 py-8">
             {/* Main Product Section */}
             <div className="bg-white shadow-md rounded-lg p-6 mb-10 grid md:grid-cols-2 gap-6 items-center">
@@ -74,6 +78,7 @@ const SingleProductPage = () => {
                 </div>
             )}
         </div>
+        </>
     );
 };
 
