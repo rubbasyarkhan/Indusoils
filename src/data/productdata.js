@@ -1,23 +1,26 @@
 const productsAndCategory = {
-    "ENGINE OIL": [
+  "ENGINE OIL": {
+    description:
+      "High-performance engine oils designed to provide superior lubrication and protection for all types of engines, ensuring efficiency and longevity.",
+    products: [
       {
         name: "Guard Engine Oil",
         image: "https://www.drivenracingoil.com/cdn/shop/files/310175GalPailHoningOil10.jpg?v=1739557259&width=533",
-        description: `laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`
+        description: `laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit...`,
       },
       {
         name: "Guard Engine Oil",
         image: "https://www.drivenracingoil.com/cdn/shop/files/310175GalPailHoningOil10.jpg?v=1739557259&width=533",
-        description: `laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`
+        description: `laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit...`,
       },
       {
         name: "Guard Engine Oil",
         image: "https://www.drivenracingoil.com/cdn/shop/files/310175GalPailHoningOil10.jpg?v=1739557259&width=533",
-        description: `laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit`
+        description: `laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit...`,
       },
       {
         name: "XVC Engine Oil",
-        image: "https://imgs.search.brave.com/Q7kpVxiTvl8N7b7xOg49lJZCLYbIz7GPyztpv95FKqs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/ZHJpdmVucmFjaW5n/b2lsLmNvbS9jZG4v/c2hvcC9maWxlcy8x/OTMwNi1HUDExMFct/MzBTeW4tRnJvbnRf/MDM4Y2JiMGYtZWY4/ZS00MDI3LTgzMjEt/YjRiMmIxZjRhOWRi/LmpwZz92PTE3Mzcx/MjkwNjAmd2lkdGg9/NTMz",
+        image: "https://imgs.search.brave.com/Q7kpVxiTvl8N7b7xOg49lJZCLYbIz7GPyztpv95FKqs/rs:fit:860:0:0:0/g:ce/...jpg",
         description: "Lorem Ipsum Dolor Sit Amet",
       },
       {
@@ -31,7 +34,11 @@ const productsAndCategory = {
         description: "Lorem Ipsum Dolor Sit Amet",
       },
     ],
-    "GREASES": [
+  },
+  "GREASES": {
+    description:
+      "Industrial and automotive greases formulated for enhanced friction reduction, wear resistance, and long-lasting protection under extreme conditions.",
+    products: [
       {
         name: "EP Grease",
         image: "/images/grease1.png",
@@ -53,7 +60,11 @@ const productsAndCategory = {
         description: "Lorem Ipsum Dolor Sit Amet",
       },
     ],
-    "TRANSFORMER OIL": [
+  },
+  "TRANSFORMER OIL": {
+    description:
+      "High-quality transformer oils developed to ensure efficient cooling and insulation in transformers and electrical equipment.",
+    products: [
       {
         name: "Transformer Oil 1",
         image: "/images/transformer1.png",
@@ -75,7 +86,11 @@ const productsAndCategory = {
         description: "Lorem Ipsum Dolor Sit Amet",
       },
     ],
-    "GEAR OIL": [
+  },
+  "GEAR OIL": {
+    description:
+      "Durable gear oils engineered to protect gears under high loads, extreme pressure, and varying operating conditions.",
+    products: [
       {
         name: "Heavy Duty Gear Oil",
         image: "/images/gear1.png",
@@ -97,7 +112,8 @@ const productsAndCategory = {
         description: "Lorem Ipsum Dolor Sit Amet",
       },
     ],
-  };
-  
+  },
+};
+
   export default productsAndCategory;
   
